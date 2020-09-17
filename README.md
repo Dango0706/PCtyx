@@ -1,16 +1,28 @@
-# PCtyx
-PCtyx is an individual hobby project of Cytus simulator formerly started as Project Thrinos way back in 2014.
-The project is made in Construct 2, exported as an NW.js application. This project is solely used as one of the custom chart application for Cytoid and/or personal use; this project is not intended for commercial purpose.
+# PCtyx Open Project
 
-## Application Download
-Go to the **Releases** tab, then download the latest version matching your platform.
-* x64 or win64 - Windows 64-bit
-* x86 or win32 - Windows 32-bit
-* osx - Mac OSX
-* linux64 - Linux 64 bit (only available at v150 onwards)
-* linux32 - Linux 32 bit (only available at v150 onwards)
+The Construct 2 project of PCtyx Editor will be available soon.
 
-Unless stated as fixed, due to file permissions differ between each platform, OSX and Linux versions in the releases are broken and require to do the following steps included in the **README.txt** file once in order to have them run properly. As of 210 version onward, OSX version is already fixed and does not require workaround.
+Construct 2 is a game maker (Windows only) that you can develop HTML5 games without any coding knowledge. A paid/(a four letter word that shall not be named here) version of Construct 2 is required due to more than 4 layers and 100+ events are used.
 
-## Open Source Project
-TBA
+## Limitations
+Compared to the public master branch releases, the open project strips the following:
+- No settings are saved and chart backup is disabled.
+- The Check Update and Help Manual in the setting screen does nothing.
+- No custom noteskin.
+- No video.
+- You can only save the chart as .csv. 
+- No support of older version of csv files and .pton files.
+- The beat is the tambourine sound from compose mode.
+
+## Required Third Party Plugins
+- Rexrainbow's plugins(https://c2rexplugins.weebly.com/)
+  * rex_csv 
+  * rex_timeline
+  * rex_touchwrap
+  * rex_dragdrop2
+  * rex_timer
+  * rex_waitevent
+- JSON (https://github.com/FrenchYann/JSON_for_construct2)
+- Pin+ (https://www.construct.net/en/forum/extending-construct-2/addons-29/behavior-pin-123766)
+- Modified official Audio plugin (unfortunately can't put here to avoid potential DMCA)
+- LiteTween (Not used in the project, but one of the most useful plugin just in case for tweening storyboard effects) (https://www.construct.net/en/forum/extending-construct-2/addons-29/behavior-litetween-48240)
